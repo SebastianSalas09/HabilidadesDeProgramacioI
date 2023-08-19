@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             //comment457878
-                    for (int i = 0; i < args.Length; i++) { 
+                    for (int i = 0; i < 4; i++) { 
             }
                    Console.WriteLine("The indez is" + i);
         }
