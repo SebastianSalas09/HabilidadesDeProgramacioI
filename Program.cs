@@ -8,7 +8,7 @@ namespace HabilidadesDeProgramacioI
         static void Main(string[] args)
         {
             //Ejercicio3
-
+            
 
             //Ejercicio2
             Random aleatorio = new Random();
