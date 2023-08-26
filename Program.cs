@@ -23,7 +23,7 @@ namespace HabilidadesDeProgramacioI
             Console.WriteLine("numero aumentado a 30%:" + num3);
 
 
-
+            //ñplolo
 
             //Ejercicio1
 
