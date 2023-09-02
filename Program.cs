@@ -9,6 +9,22 @@ namespace HabilidadesDeProgramacioI
         {
 
             //Ejercicio14
+            Console.WriteLine("Ingrese el valor de su temperatura");
+            string inicio3 = ConsoleReadLine();
+            int num3 = Int32.Parse(inicio3);
+            bool mayoracero = inicio3 >= 0;
+            bool menoracero = inicio3 < 0;
+
+            if (mayoracero) {
+                Console.WriteLine("Puede contiar" + mayoracero); 
+            }
+            
+            if (menoracero) {
+                Console.WriteLine("no puede continuar intente dar otro valor" + menoracero);
+
+            }
+
+
 
 
             //Ejercicio13
