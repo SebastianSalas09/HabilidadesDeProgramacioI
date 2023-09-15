@@ -8,8 +8,16 @@ namespace HabilidadesDeProgramacioI
     {
         static void Main(string[] args)
         {
-
-
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
             switch (useResponse)
             {
                 case "1":
@@ -23,10 +31,91 @@ namespace HabilidadesDeProgramacioI
                     break;
                 case "3":
 
+                case "4":   
+
+                case "5":   
+
+                case "6":
+
+                case "7":
+
+                case "8":
+
+                case "9":
+
+                case "10":
+
 
 
 
             }
+
+            //Ejercicio 20
+            Console.WriteLine("cual fue el resultado de ruleta ");
+            string input12 = Console.ReadLine();
+            int resul = Int32.Parse(input12);
+            if (resul>=0 && resul<12)
+            {
+                Console.WriteLine("el resultado se encuentra en la primera docena ");
+            }
+            if (resul>=12 && resul<24)
+            {
+                Console.WriteLine("el resultado se encuentra en la segunda docena ");
+            }
+            if (resul>=24 && resul<36)
+            {
+                Console.WriteLine("el resultado se encuentra en la tercera docena ");
+            }  
+
+
+            //Ejercicio 19 
+            Console.WriteLine("ingrese el valor del lado 1 ");
+            string input9 = Console.ReadLine();
+            float lado1 = float.Parse(input9);
+            Console.WriteLine("ingrese el valor del lado 2 ");
+            string input10 = Console.ReadLine();
+            float lado2 = float.Parse(input10);
+            Console.WriteLine("ingrese el valor del lado 3 ");
+            string input11 = Console.ReadLine();
+            float lado3 = float.Parse(input11);
+
+            if (lado1 != lado2 && lado2 != lado3)
+            {
+                Console.WriteLine("Es un triangulo Escaleno");
+            }
+            if ((lado1 == lado2 && lado2 != lado3)||(lado1 == lado3 && lado3 != lado2)||(lado2 == lado3 && lado3 != lado1))
+            {
+                Console.WriteLine("Es un triangulo Isosceles");
+            }
+            if (lado1 == lado2 && lado2 == lado3)
+            {
+                Console.WriteLine("Es un triangulo Equilatero");
+            }
+
+
+            //Ejercicio 18
+            Console.WriteLine("ingrese el numero 1 ");
+            string input14 = Console.ReadLine();
+            float numero1 = float.Parse(input14);
+            Console.WriteLine("ingrese el numero 2");
+            string input15 = Console.ReadLine();
+            float numero2 = float.Parse(input15);
+            Console.WriteLine("ingrese el numero 3 ");
+            string input16 = Console.ReadLine();
+            float numero3 = float.Parse(input16);
+            if (numero1 > numero2 && numero1 > numero3)
+            {
+                Console.WriteLine("el numero "+ numero1 +" es el mayor");
+            }
+            if (numero2 > numero1 && numero2 > numero3)
+            {
+                Console.WriteLine("el numero "+ numero2 +" es el mayor");
+            }
+            if (numero3 > numero2 && numero3 > numero1)
+            {
+                Console.WriteLine("el numero "+ numero3 +" es el mayor");
+            }
+
 
             //Ejercicio 16 
 
