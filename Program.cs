@@ -155,9 +155,6 @@ namespace HabilidadesDeProgramacioI
                 Console.WriteLine("El valor de su Perimetro es" + perimetro * Altura1);
             }
 
-
-
-
             //Ejercicio13
             Console.WriteLine("Ingrese su temperatura");
             string inicio2 = Console.ReadLine();    
@@ -245,13 +242,16 @@ namespace HabilidadesDeProgramacioI
 
 public static void RandonNumber (double resultado)
 {
-    Random aleatorio = new Random();
-    Console.WriteLine();
-    int resultado = aleatorio.Next(0, 200);
-    Console.WriteLine(resultado);
-    double porcentaje = 1.3;
-    double num2 = (porcentaje * resultado);
-    Console.WriteLine("numero" + aleatorio);
+    string = Triangleresult "";
+    Console.WriteLine("ingrese el valor del lado 1 ");
+    string input9 = Console.ReadLine();
+    float lado1 = float.Parse(input9);
+    Console.WriteLine("ingrese el valor del lado 2 ");
+    string input10 = Console.ReadLine();
+    float lado2 = float.Parse(input10);
+    Console.WriteLine("ingrese el valor del lado 3 ");
+    string input11 = Console.ReadLine();
+    float lado3 = float.Parse(input11);
 
     double num3 = resultado + num2;
     Console.WriteLine("numero aumentado a 30%:" + num3);
